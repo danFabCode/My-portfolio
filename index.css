@@ -1,0 +1,271 @@
+/* Global Styles */
+:root {
+  --primary-color: #4285f4;
+  --secondary-color: #f4b400;
+  --background-color: #f7f7f7;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color:#fbfffe;
+  background-color: #00002ce0;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header Styles */
+header {
+  background-color:#00002c;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+nav {
+  margin-bottom: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 1rem;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  transition: all 0.3s ease;
+  padding: 1rem;
+  font-size: 20px;
+  
+}
+
+nav ul li a:hover {
+  color: var(--secondary-color);
+}
+
+.banner {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+  background: url(images/jj-ying-8bghKxNU1j0-unsplash.jpg) center no-repeat;
+  background-size: cover;
+}
+.banner img{
+  /* border: 1px solid white; */
+  border-radius: 5px;
+  border-bottom: 2px solid white;
+  /* box-shadow: 2px 2px 0 0 white; */
+}
+
+/* about */
+.about-me-img{
+  width: 600px;
+  height: 600px;
+  background: url(images/needed.jpg) center no-repeat;
+  background-size: cover;
+  
+}
+.banner h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.banner h2 {
+  font-size: 2rem;
+}
+
+/* Main Styles */
+main {
+  padding: 2rem 1rem;
+}
+
+.container {
+  max-width: 800px;
+  margin: 10px auto 20px;
+}
+
+
+.project {
+  margin-bottom: 10px;
+  text-align: center;
+}
+hr{
+  margin: 0 0 15%;
+}
+
+.project img {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.project h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.project p {
+  margin-bottom: 1rem;
+}
+
+/* Contact Form Styles */
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form input:focus,
+form textarea:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+form textarea {
+  resize: vertical;
+}
+
+form input[type='submit'] {
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+form input[type='submit']:hover {
+  background-color: #1DA1F2;
+  
+}
+form input[type='submit']:active{
+  position: relative;
+  top: 1px;
+}
+
+/* Footer Styles */
+footer {
+  background-color:#00001c;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.social-icons,
+#social-icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons a{
+  display: inline-block;
+  margin: 0 10px;
+  color: #fff;
+  font-size: 30px;
+}
+#social-icons i{
+  display: inline-block;
+  margin: 10px;
+  color: yellow;
+  font-size: 5em;
+  
+}
+
+
+.social-icons a i,
+#social-icons i {
+  transition: color 0.3s;
+}
+
+.social-icons a:hover i {
+  color: #1DA1F2;
+}
+
+ .copyright {
+   font-size: 14px;
+   color: #fff;
+   margin-top: 20px;
+ }
+
+
+ #skills{
+  margin: 50px 0;
+ }
+.icon-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin:20px 10px;
+  align-items: center;
+
+}
+.icon-text span{
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#testimonials p{
+  margin: 25px 0 ;
+} 
+#testimonials{
+  margin-bottom: 5%;
+}
+h2{
+  font-size: 3em;
+}
+h1{
+  font-size: 4em;
+  text-align: center;
+  margin: 10px auto 20px;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  width: 400px;
+}
