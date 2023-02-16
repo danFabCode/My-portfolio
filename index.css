@@ -202,12 +202,19 @@ footer {
   text-align: center;
 }
 
-.social-icons{
+/* .social-icons{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+} */
+.social-icons{
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
 }
 .socials{
+  display: flex;
+  flex-direction: column;
   margin: 10px auto;
   padding:0 10px;
   text-align: center;
@@ -223,6 +230,11 @@ footer {
   justify-content: space-between;
   align-items: center;
 }
+.third{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .socials i{
   font-size: 5em;
   
@@ -231,7 +243,7 @@ footer {
 
 .social-icons a{
   display: inline-block;
-  margin: 0 auto;
+  margin:5px auto;
   color: #fff;
   font-size: 30px;
 }
@@ -286,12 +298,11 @@ footer {
 h2{
   font-size: 3em;
 }
-h1{
+/* h1{
   font-size: 3em;
   text-align: center;
   margin: 10px auto 20px;
-  /* border-bottom: 1px solid white;
-  border-top: 1px solid white; */
-}
+ 
+} */
 
 
