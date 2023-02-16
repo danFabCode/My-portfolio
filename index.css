@@ -38,7 +38,7 @@ header {
   background-color:#00002c;
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -53,6 +53,8 @@ nav {
 nav ul {
   list-style: none;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 nav ul li {
@@ -76,18 +78,19 @@ nav ul li a:hover {
 
 .banner {
   width: 100%;
-  height: 70vh;
+  height: 80vh;
   text-align: center;
   color: #fff;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
   background: url(images/jj-ying-8bghKxNU1j0-unsplash.jpg) center no-repeat;
   background-size: cover;
+  
 }
 .banner img{
   /* border: 1px solid white; */
   border-radius: 5px;
   border-bottom: 2px solid white;
-  width: 400px;
+  max-width: 400px;
   height: 400px;
   margin: 10px auto;
   /* box-shadow: 2px 2px 0 0 white; */
@@ -116,7 +119,7 @@ main {
   padding: 2rem 1rem;
 }
 .container{
-  max-width: 1000px;
+  max-width: 900px;
   margin: auto;
 }
 
@@ -206,6 +209,7 @@ footer {
 }
 .socials{
   margin: 10px auto;
+  padding:0 10px;
   text-align: center;
   color: #f4b400;
 }
@@ -283,12 +287,11 @@ h2{
   font-size: 3em;
 }
 h1{
-  font-size: 4em;
+  font-size: 3em;
   text-align: center;
   margin: 10px auto 20px;
-  border-bottom: 1px solid white;
-  border-top: 1px solid white;
-  width: 400px;
+  /* border-bottom: 1px solid white;
+  border-top: 1px solid white; */
 }
 
 
